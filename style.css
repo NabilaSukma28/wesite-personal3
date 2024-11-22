@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app {
+  max-width: 400px;
+  margin: 0 auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loan-section {
+  background-image: url(biru1.jpg);
+  padding: 15px;
+  background-color: #e8f5e9;
+  text-align: center;
+}
+
+.loan-card h2 {
+  color: #f8b307;
+}
+
+.account-info {
+  padding: 15px;
+  background-color: #f0f8ff;
+}
+
+.saldo h3 {
+  margin: 0;
+  color: #007BFF;
+}
+
+.saldo .balance {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.saldo .account-number {
+  color: gray;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.actions button {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background-color: #0056b3;
+}
+
+.transactions {
+  padding: 15px;
+}
+
+.transactions table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.transactions .expense {
+  color: red;
+}
+
+.transactions .income {
+  color: green;
+}
+
+.footer {
+  background: #ddd;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer nav button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  margin: 0 15px;
+  cursor: pointer;
+}
